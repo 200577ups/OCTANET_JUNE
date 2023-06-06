@@ -1,5 +1,5 @@
-# OCTANET_JUNE
-# Octanet interneship - Task1
+# OCTANET_JUNE 
 
-in this task i have created a landing page named GROWSKILL
-based on online course selling and enhancing skills of student.
+In this repository i am uploading my internship projects, 
+i am doing internsp in octanet-june 2023 session it is one
+1 month online web development internship.
