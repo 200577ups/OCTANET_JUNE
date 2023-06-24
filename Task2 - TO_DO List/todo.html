@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+<body>
+
+    <div class="todoapp">
+        <div id="pagetitle">
+            <h1>TO-DO LIST</h1>
+        </div>
+        <div class="todobox">
+
+            <div class="taskaddarea">
+                <div class="taskadd">
+                    <div class="taskinput">
+                        <input type="text" id="taskname" placeholder="Enter Your Task..">
+                        <select id="priority">
+                            <option value="Low">Low</option>
+                            <option value="Medium" selected>Medium</option>
+                            <option value="High">High</option>
+                        </select>
+                        <input type="datetime-local" id="deadline" value="">
+                    </div>
+
+                    <div class="button">
+                        <button onclick="addTask()" id="add">Add</button>
+                        <button onclick="deleteAll()" id="deleteall">Delete All</button>
+
+                    </div>
+
+                </div>
+
+                <div class="heading">--Task List--</div>
+
+                <div class="tasklistarea">
+                    <ol id="tasklist"></ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Mobile No. - +91 6263888338</p>
+        <p>Email - vishvajitsingh30@gmail.com</p>
+        <p>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </p>
+        <p>&copy 2023 Vishvajit Singh. All Right Reserved</p>
+    </footer>
+
+    <script src="todo.js"></script>
+
+</body>
+
+</html>
