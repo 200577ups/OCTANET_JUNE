@@ -241,8 +241,8 @@ li {
   padding-right: 15px;
 }
 
-.login_btn:hover+.login_dropdown,
-.more_btn:hover+.more_dropdown {
+.login:hover .login_dropdown,
+.more:hover .more_dropdown {
   display: block;
 }
 
